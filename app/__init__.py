@@ -25,6 +25,3 @@ if "transactions" not in db.list_collection_names():
 CORS(app)
 
 from app import routes, models
-
-if __name__ == "__main__":
-    app.run(debug=True)
